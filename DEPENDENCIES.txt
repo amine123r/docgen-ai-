@@ -1,0 +1,90 @@
+DOCUMATE EXTENSION - EXACT DEPENDENCIES
+
+=== CORE LIBRARIES (CDN) ===
+@babel/parser@7.23.0
+- Purpose: Parse JavaScript/TypeScript code to AST
+- Size: ~800KB
+- License: MIT
+- CDN: https://unpkg.com/@babel/parser@7.23.0/lib/index.js
+
+marked@9.1.6
+- Purpose: Markdown parsing and generation
+- Size: ~45KB
+- License: MIT
+- CDN: https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js
+
+jszip@3.10.1
+- Purpose: Handle GitHub repository ZIP downloads
+- Size: ~150KB
+- License: MIT
+- CDN: https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js
+
+prettier@3.1.0 (standalone)
+- Purpose: Code formatting for generated docs
+- Size: ~300KB
+- License: MIT
+- CDN: https://unpkg.com/prettier@3.1.0/standalone.js
+
+=== UI LIBRARIES (CDN) ===
+tailwindcss@3.3.6
+- Purpose: CSS utility framework
+- Size: ~50KB (purged)
+- License: MIT
+- CDN: https://cdn.tailwindcss.com
+
+lucide@0.294.0
+- Purpose: Icon library
+- Size: ~30KB
+- License: ISC
+- CDN: https://unpkg.com/lucide@0.294.0/dist/umd/lucide.js
+
+=== NATIVE BROWSER APIS ===
+Chrome Extension APIs (Built-in):
+- chrome.storage
+- chrome.tabs
+- chrome.scripting
+- chrome.runtime
+
+Web APIs (Built-in):
+- fetch()
+- IndexedDB
+- localStorage
+- File API
+- Blob API
+
+=== EXTERNAL APIS ===
+Google Gemini API
+- Endpoint: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+- Authentication: API Key (your existing key)
+- Rate Limit: 60 requests/minute (free tier)
+
+GitHub REST API v4
+- Endpoint: https://api.github.com
+- Authentication: None (public repos)
+- Rate Limit: 60 requests/hour (unauthenticated)
+
+=== TOTAL BUNDLE SIZE ===
+Core JavaScript: ~1.3MB
+CSS Framework: ~50KB
+Icons: ~30KB
+Extension Files: ~200KB
+TOTAL: ~1.6MB
+
+=== NO BUILD TOOLS NEEDED ===
+- Direct file loading
+- CDN dependencies
+- No webpack/rollup/vite
+- No npm install required
+- Pure HTML/CSS/JS
+
+=== DEVELOPMENT DEPENDENCIES ===
+None required for prototype
+- Chrome DevTools (built-in)
+- VS Code (optional)
+- Git (version control)
+
+=== RUNTIME REQUIREMENTS ===
+- Chrome 88+ (Manifest V3)
+- Internet connection (for AI API)
+- 50MB RAM
+- 10MB disk space
