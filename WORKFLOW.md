@@ -1,4 +1,4 @@
-# DocuMate Extension - Development Workflow
+# DocGen AI Extension - Development Workflow
 
 ## 🚀 Development Process (3 Days)
 

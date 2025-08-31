@@ -1,4 +1,4 @@
-# DocuMate Extension - Tech Stack & Dependencies
+# DocGen AI Extension - Tech Stack & Dependencies
 
 ## Core Technologies
 - **Chrome Extension Manifest V3** - Latest Chrome extension framework

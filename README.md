@@ -1,10 +1,10 @@
-# DocuMate - AI Documentation Generator Extension
+# DocGen AI - AI Documentation Generator Extension
 
 > Automatically generate comprehensive documentation for your GitHub repositories using AI
 
 ## 🚀 Overview
 
-DocuMate is a Chrome extension that analyzes your code repositories and generates professional documentation including README files, API docs, code comments, and project wikis using advanced AI.
+DocGen AI is a Chrome extension that analyzes your code repositories and generates professional documentation including README files, API docs, code comments, and project wikis using advanced AI.
 
 ## ✨ Features
 

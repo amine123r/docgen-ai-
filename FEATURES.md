@@ -1,4 +1,4 @@
-# DocuMate Extension - Feature Specification
+# DocGen AI Extension - Feature Specification
 
 ## MVP Features (Prototype)
 
